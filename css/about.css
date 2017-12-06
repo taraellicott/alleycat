@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
+html, body {height:100%; margin:0;}
+* {margin:0;}
+
+
+header {height:10%; background-color:#DA667B; display:flex; justify-content:center; align-items:center;}
+
+h1 {color:#F1E0C5;font-size:4.5em; font-family: 'Jim Nightshade', cursive;
+ text-shadow: 2px 2px #342A21;}
+ 
+h2 {color:#F1E0C5; font-size:3.5em; font-family: 'Jim Nightshade', cursive; 
+display:flex; justify-content:center; text-shadow: 1px 1px #342A21;}
+
+p {color:#F1E0C5; padding:10px; margin:10px; font-family: sans-serif; 
+border:solid 5px; border-style:ridge; background-color:rgba(0,0,0,.6);}
+
+nav { background-color:#342A21; height:5%;}
+ ul {list-style-type:none; display:flex; height:100%; padding:0; }
+ li {color:#F1E0C5 ; border:solid 1px; display:flex; justify-content:center; 
+ align-items:center; width:33.3%; box-sizing:border-box; height:100%;}
+ 
+a:link {color:#F1E0C5; text-decoration:none;}
+a:visited {color:#71816D; text-decoration:none;} 
+ 
+section {height:80%; background-color:#71816D; }
+
+footer {background-color:#C9B79C; text:#F1E0C5; height:5%; display:flex; 
+justify-content:center; align-items:center;}
+
+body {background-color:red;}
+
+#title {height:10%; background-color:#71816D;}
+
+.about {height:50%; display:flex; justify-content:center; align-items:center;}
+
+.sprinkles {height:50%; background-image:display:flex; justify-content:center; align-items:center;}
