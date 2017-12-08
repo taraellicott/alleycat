@@ -3,13 +3,15 @@
 html, body {height:100%; margin:0;}
 * {margin:0;}
 
-header {height:10%; background-color:#DA667B; display:flex; justify-content:center; 
+body {background-color:red;}
+
+header {height:15%; background-color:#DA667B; display:flex; justify-content:center; 
 align-items:center;}
 
-h1 {color:#F1E0C5; font-size:4.5em; font-family: 'Jim Nightshade', cursive; 
+h1 {color:#F1E0C5; font-size:4.5em; font-family: 'Jim Nightshade', cursive;
 text-shadow: 2px 2px #342A21;}
-
-h2 {color:#342A21; font-size:3.5em; font-family: 'Jim Nightshade', cursive; 
+ 
+h2 {color:#DA667B; font-size:3.5em; font-family: 'Jim Nightshade', cursive; 
 display:flex; justify-content:center; text-shadow: 1px 1px #342A21;}
 
 h3 {color:#342A21; font-size:2.0em; font-family: 'Jim Nightshade', cursive; 
@@ -18,24 +20,27 @@ display:flex; text-shadow: 1px 1px #342A21;}
 nav { background-color:#342A21; text:white; height:5%;}
  ul {list-style-type:none; display:flex; height:100%; padding:0; }
  li {color:#F1E0C5 ; border:solid 1px; display:flex; justify-content:center; 
- align-items:center; width:33.3%; box-sizing:border-box; height:100%;}
+ align-items:center; width:25%; box-sizing:border-box; height:100%;}
 
 a:link {color:#F1E0C5; text-decoration:none;}
-a:visited {color:#71816D; text-decoration:none;}
+a:visited {color:#DA667B; text-decoration:none;}
 
-section {height:70%; border:solid; background-color:#71816D; display:flex; justify-content:center; align-items:center;}
+section {height:65%; background-color:#71816D; display:flex; justify-content:center;}
 
-footer {background-color:#C9B79C; text:#F1E0C5; height:5%; display:flex; 
+footer {height:5%; background-color:#342A21; color:#C9B79C; display:flex; 
 justify-content:center; align-items:center;}
 
-body {background-color:red;}
+.hours {height:100%; width:100%; border:none; margin:10px;}
 
-.hours {padding:10px; margin:10px;}
+.map {height:50%; width:50%; margin-top:5%;}
 
-.map {height:100%; width:50%; display:flex; justify-content:center; margin-top:10%;}
-
-.info {height:100%; width:50%; display:flex; justify-content:center; margin-top:10%; }
+.info {height:90%; width:25%; padding:1px; border:5px solid #342A21; 
+background-color:#DA667B; font-family: garamond;}
 
 #visit {height:10%; background-color:#71816D;}
 
-iframe {height:300px;}
+iframe {height:300px; padding:5px; border:10px solid black;}
+
+div {height:7.5%; display:flex; justify-content:center; align-items:center; color:#342A21; font-size:1.3em;}
+
+#title {height:15%; display:flex; justify-content:center;}
